@@ -1,0 +1,121 @@
+
+
+@media only screen and (min-width: 767px) and (max-width: 771px), 
+not all and (min-width: 767px) and (max-width: 771px) (orientation: portrait)
+{
+	#element1 { display: none; }
+}
+
+
+/************************************/
+/* Small screen (320px), non-retina */
+/************************************/
+@media only screen and (min-width: 320px)
+{
+
+}
+
+/*********************************************************************/
+/* Small screen (320px), retina, stuff to override above media query */
+/*********************************************************************/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (                min-resolution: 192dpi) and (min-width: 320px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 320px)
+{ 
+    #element2 { display: none; }
+}
+
+/************************************/
+/* Small screen (480px), non-retina */
+/************************************/
+@media only screen and (min-width: 480px)
+{
+
+}
+
+/*********************************************************************/
+/* Small screen (480px), retina, stuff to override above media query */
+/*********************************************************************/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 480px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 480px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 480px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 480px),
+only screen and (                min-resolution: 192dpi) and (min-width: 480px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 480px)
+{ 
+    #element2 { display: none; }
+}
+
+/*************************************/
+/* Medium screen (700px), non-retina */
+/*************************************/
+@media only screen and (min-width: 700px)
+{
+
+}
+
+/**********************************************************************/
+/* Medium screen (700px), retina, stuff to override above media query */
+/**********************************************************************/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 700px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (                min-resolution: 192dpi) and (min-width: 700px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 700px)
+{ 
+    #element2 { display: none; }
+}
+
+/*************************************/
+/* Large screen (767-771px), non-retina */
+/*************************************/
+@media only screen and (min-width: 767px) and (max-width: 771px)
+{
+    #element3 { display: none; }
+}
+
+/**********************************************************************/
+/* Large screen (767-771px), retina, stuff to override above media query */
+/**********************************************************************/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 767px) and (max-width: 771px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 767px) and (max-width: 771px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 767px) and (max-width: 771px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 767px) and (max-width: 771px),
+only screen and (                min-resolution: 192dpi) and (min-width: 767px) and (max-width: 771px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 767px) and (max-width: 771px) (orientation: portrait)
+{ 
+    #element2 { display: none; }
+}
+
+/*************************************/
+/* Large screen (1300px), non-retina */
+/*************************************/
+@media only screen and (min-width: 1300px)
+{
+
+}
+
+/**********************************************************************/
+/* Large screen (1300px), retina, stuff to override above media query */
+/**********************************************************************/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1300px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
+{ 
+    #element2 { display: none; }
+}
+
+
+/* EOF retina-queries */
